@@ -10,10 +10,10 @@
 
 I composed the solution out of the following pages of the documentation:
 
--   [![Tutorial](https://pymupdf.readthedocs.io/en/latest/tutorial/)] page to get introduced into the library
--   [![page.searchFor](https://pymupdf.readthedocs.io/en/latest/page/#Page.searchFor)] to figure out the return type of the searchFor method
--   [![fitz.Rect](https://pymupdf.readthedocs.io/en/latest/rect/#rect)] to understand what the returned objects from page.searchFor are
--   [![Collection of Recipes](https://pymupdf.readthedocs.io/en/latest/faq/)] page (called faq in the URL) to figure out how to crop and save part of a pdf page
+-   [![Tutorial](https://pymupdf.readthedocs.io/en/latest/tutorial/)] page for introduction to the fitz liabrary
+-   [![page.searchFor](https://pymupdf.readthedocs.io/en/latest/page/#Page.searchFor)] to solve the return type for searchFor method
+-   [![fitz.Rect](https://pymupdf.readthedocs.io/en/latest/rect/#rect)] to identify what the returned objects from page.searchFor
+-   [![Collection of Recipes](https://pymupdf.readthedocs.io/en/latest/faq/)] page (called faq in the URL) to implement cropping and saving part of a pdf page
 
 ## 🚀 Quickstart
 
