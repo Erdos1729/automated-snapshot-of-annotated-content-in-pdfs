@@ -8,7 +8,7 @@
 
 ## Reference
 
-I composed the solution out of the following pages of the documentation:
+I devised the solution from the following pages of the documentation:
 
 -   [![Tutorial](https://pymupdf.readthedocs.io/en/latest/tutorial/)] page for introduction to the fitz liabrary
 -   [![page.searchFor](https://pymupdf.readthedocs.io/en/latest/page/#Page.searchFor)] to solve the return type for searchFor method
