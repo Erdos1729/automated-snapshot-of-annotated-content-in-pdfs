@@ -101,14 +101,13 @@ for n in range(len(df2)):
 
     highlight = page.addHighlightAnnot(r1)
 
-    # define a suitable cropping box which spans the whole page
-    # and adds padding around the highlighted text
+    # Provide parameters to create a cropping box around the highlighted content
     tl_pt = fitz.Point(page.rect.tl.x, max(page.rect.tl.y, r1.tl.y - five_percent_height))
     br_pt = fitz.Point(page.rect.br.x, min(page.rect.br.y, r1.br.y + five_percent_height))
     hl_clip = fitz.Rect(tl_pt, br_pt)
 
     zoom_mat = fitz.Matrix(2, 2)
-    # page.addRectAnnot(rect=hl_clip) #adds a black rectangle around the snashot
+    # page.addRectAnnot(rect=hl_clip) # To add a black rectangle around the snapshot
     pix = page.getPixmap(matrix=zoom_mat, clip=hl_clip)
     pix.writePNG(dir1 + '/' + str(df2['title'][n]) + f".png")  # -hl{text_instances}
 
