@@ -10,10 +10,11 @@
 
 I devised the solution from the following pages of the documentation:
 
--   [![Tutorial]<https://pymupdf.readthedocs.io/en/latest/tutorial/>] page for introduction to the fitz liabrary
--   [![page.searchFor]<https://pymupdf.readthedocs.io/en/latest/page/#Page.searchFor>] to solve the return type for searchFor method
--   [![fitz.Rect]<https://pymupdf.readthedocs.io/en/latest/rect/#rect>] to identify what the returned objects from page.searchFor
--   [![Collection of Recipes]<https://pymupdf.readthedocs.io/en/latest/faq/>] page (called faq in the URL) to implement cropping and saving part of a pdf page
+-   [Tutorial]<https://pymupdf.readthedocs.io/en/latest/tutorial.html> page for introduction to the fitz liabrary
+-   [page.searchFor]<https://pymupdf.readthedocs.io/en/latest/page.html> to solve the return type for searchFor method
+-   [fitz.Rect]<https://pymupdf.readthedocs.io/en/latest/rect.html> to identify what the returned objects from page.searchFor
+-   [fitz.Point]<https://pymupdf.readthedocs.io/en/latest/functions.html> to provide parameters to create a cropping box around the highlighted content
+-   [Collection of Recipes]<https://pymupdf.readthedocs.io/en/latest/faq.html> page to implement cropping, saving and working with images as spnapshots
 
 ## 🚀 Quickstart
 
